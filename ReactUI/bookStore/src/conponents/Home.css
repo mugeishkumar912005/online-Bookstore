@@ -1,0 +1,239 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    padding-top: 60px; 
+  }
+  
+  .nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #007bff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    left: 0;
+  }
+  .nav select {
+    appearance: none;
+    background-color: #ffffff;
+    border: 2px solid #007bff;
+    border-radius: 5px;
+    color: #007bff;
+    padding: 8px 16px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: border-color 0.3s, color 0.3s;
+  }
+  
+  .nav select:hover {
+    border-color: #0056b3;
+  }
+  
+  .nav select:focus {
+    outline: none;
+    border-color: #0056b3;
+  }
+  
+  .nav select option {
+    background-color: #ffffff;
+    color: #333333;
+  }
+  
+  .HBod {
+    max-width: 1200px;
+    margin: 80px auto 20px;
+    padding: 20px;
+    padding-top: 500px;
+  }
+  
+  
+  .nav img {
+    margin-right: 10px;
+  }
+  
+  .nav h1 {
+    color: white;
+    font-size: 24px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .nav li {
+    display: flex;
+    align-items: center;
+  }
+  
+  .nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    padding: 8px 16px;
+    transition: background-color 0.3s;
+    border-radius: 5px;
+  }
+  
+  .nav a:hover {
+    background-color: #0056b3;
+  }
+  
+  .Top {
+    text-align: center;
+    margin: 100px 0 20px; 
+    color: white;
+  }
+  
+  .Top h1 {
+    font-size: 28px;
+    color: #ffffff;
+  }
+  
+  .Top h1 p {
+    font-size: 20px;
+    color: #ffffff;
+  }
+.Mcontdiv {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(200px, 1fr));
+    gap: 20px;
+    margin-top: 20px;
+  }
+  
+  .cont {
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+    text-align: left;
+  }
+  
+  .cont img, .topr img {
+    border-radius: 5px;
+    margin-bottom: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .cont p, .topr p {
+    margin: 5px 0;
+    color: #333;
+    font-size: 14px;
+  }
+
+.topr {
+    width: calc(33.33% - 20px); 
+    margin-right: 20px; 
+  }
+
+  .TopRatedContainer {
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: space-between; 
+  }
+
+  #logout-btn {
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+  }
+  body {
+    overflow-x: hidden;
+  }
+  .nav li{
+    color:white;
+  }
+  
+  
+  #Addbtn {
+    background-color: #007bff;
+    color: white;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-top: 10px; 
+    display: block;
+    width: 100%;
+  }
+  
+  #Addbtn:hover {
+    background-color: #0056b3;
+  }
+  
+  @media (max-width: 768px) {
+    .nav {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    .nav ul {
+      flex-direction: column;
+      width: 100%;
+    }
+  
+    .nav li {
+      width: 100%;
+    }
+  
+    .nav a {
+      width: 100%;
+      text-align: center;
+    }
+  
+    .Top {
+      margin-top: 120px; 
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .nav {
+      padding: 10px;
+    }
+  
+    .nav h1 {
+      font-size: 20px;
+    }
+  
+    .nav a {
+      font-size: 14px;
+    }
+  
+    .Top h1 {
+      font-size: 24px;
+    }
+  
+    .Top h1 p {
+      font-size: 18px;
+    }
+  
+    .Mcontdiv {
+      grid-template-columns: 1fr; 
+    }
+  
+    .cont, .topr {
+      padding: 10px;
+    }
+  
+    .cont p, .topr p {
+      font-size: 12px;
+    }
+  
+    #Addbtn {
+      padding: 6px 12px;
+    }
+  }
+  

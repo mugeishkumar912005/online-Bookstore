@@ -1,7 +1,7 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
 import App from './App.jsx'
-import './index.css'
+// import './index.css'
 import Login from './conponents/Logcard.jsx'
 import SignUp from './conponents/signupcard.jsx'
 import Mycoll from './conponents/Mycoll.jsx'
